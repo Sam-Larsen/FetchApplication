@@ -1,0 +1,19 @@
+1. I chose to use java as it is my most comfortable language.
+In the project I used a PriorityQueue and a HashMap. I used a PriorityQueue because it
+allows for a list to be sorted based on a specified condition, in this case the date. This 
+was useful because it allowed the use of a list without having to run a sort. I also used a HashMap
+for total points per payer because it associates a single key the payer, with a value, the total points, and
+allows for easy addition to the values associated with each key, which is useful for summing the points.
+Other than that, I used a scanner to read the file and the Date class to read the date format as it was easily adaptable.
+
+2. My solutions advantages are that it does not require a sorting method, because the PriorityQueue polls
+in the desired order. The disadvantage is that it is more difficult to store the data once you've accessed it,
+since you need another data structure to hold that information.
+
+3. My favorite project so far was a project that required us to create a simulation of a vending machine.
+The project was enjoyable because it required us to create a working simulation of all parts including the
+accepting of money, inventory of the machine an the change return. Not only did it require us to return these values,
+but we had to keep an active inventory of the items in the machine and the money of each type in the money box. This
+was fun because you could really see the real world application of the program. Overall it was not the most difficult
+project, however some aspects did present challenges like the display class and the implementation of the change return
+since it had to return accurate change which had a few odd corner cases.
